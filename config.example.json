@@ -1,0 +1,25 @@
+{
+  "sender_name": "Aiqiu Zhang",
+  "email_address": "you@gmail.com",
+  "email_password_env": "ONBOARD_EMAIL_PASSWORD",
+  "smtp_host": "smtp.gmail.com",
+  "smtp_port": 587,
+  "imap_host": "imap.gmail.com",
+
+  "timezone": "America/Los_Angeles",
+  "default_hourly_rate": "150",
+  "template": "contract_template.pdf",
+  "instruction_images": [
+    "instructions_on_how_to_sign_a_pdf_on_Mac.png",
+    "instructions_on_how_to_sign_a_pdf_on_Windows.png"
+  ],
+
+  "contract_subject": "Career Consulting Agreement - The Pathway Group",
+  "contract_email_body": "Hi {first_name},\n\nAttached please find the Career Consulting Agreement. Please sign, make payment, and return the agreement to me before our meeting time.\n\nI look forward to helping you!\n\nThanks,\nAiqiu",
+
+  "meeting_title": "Career Consulting Session",
+  "meeting_link": "https://teams.microsoft.com/l/meetup-join/PASTE-YOUR-TEAMS-LINK",
+  "invite_email_body": "Hi {first_name},\n\nThank you for returning the signed agreement. Here is the calendar invite for our session on {session}.\n\nTeams link: {meeting_link}\n\nSee you then!\n\nThanks,\nAiqiu",
+
+  "ai_model": "claude-haiku-5-5"
+}

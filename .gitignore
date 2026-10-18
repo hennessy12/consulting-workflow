@@ -1,0 +1,7 @@
+.venv/
+contracts/
+clients.json
+config.json
+__pycache__/
+.DS_Store
+contract_template.pdf
